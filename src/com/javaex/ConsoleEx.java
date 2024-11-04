@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class ConsoleEx {
 	
 	public static void main(String[] args) {
-//		consoleOutput();
+		consoleOutput();
 		consoleInput();
 	
 	}
