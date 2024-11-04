@@ -10,7 +10,9 @@ public class ConditionalEx {
 //		ifPractice01();
 //		switchEx();
 //		switchEx2();
-		switchPractice();
+//		switchPractice();
+//		condEx();
+		condEx1();
 
 	}
 	
@@ -176,4 +178,29 @@ public class ConditionalEx {
 		System.out.println(day +"에는 "+ action);
 	}
 	
+	private static void condEx() {
+		System.out.println("점수를 입력하세요");
+		
+		Scanner scanner = new Scanner(System.in);
+		int mark = scanner.nextInt() ;
+		if (mark == 3^m) {System.out.println("3의 배수입니다");}
+		else (mark != 3^m){System.out.println("은 3의 배수가 아닙니다");}
+			
+		}
+	private static void condEx1() {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("점수를 입력하세요");
+		int marks = scanner.nextInt();
+		 
+		if(100 >= marks >= 90) {System.out.println("A등급");}
+			else if(89 >= marks >= 80) {System.out.println("B등급");}
+			else if(79 >= marks >= 70) {System.out.println("C등급");}
+			else if(69 >= marks >= 60) {System.out.println("D등급");}
+			else(marks < 60){System.out.println("F등급");}
+	scanner.close();
+		}
+		
+		
+	}
 }
