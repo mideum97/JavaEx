@@ -26,6 +26,7 @@ public class ShapeApp {
 		
 		for (Drawable obj: objs) {
 			obj.draw();
+			
 		}
 
 	}
